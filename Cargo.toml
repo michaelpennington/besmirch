@@ -11,6 +11,9 @@ categories = [
   "multimedia::images",
   "visualization`",
 ]
+build = "build.rs"
+repository = "https://github.com/michaelpennington/besmirch"
+description = "An interface between audio and light"
 
 [lib]
 name = "besmirch"
@@ -24,5 +27,8 @@ path = "src/bin.rs"
 image = "0.24.2"
 clap = "3.1.18"
 edge-detection = "0.2.6"
-midi-types = "0.1.2"
 bytemuck = "1.9.1"
+thiserror = "1.0"
+
+[build-dependencies]
+rustc_version = "0.4.0"

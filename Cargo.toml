@@ -12,7 +12,7 @@ categories = [
   "visualization`",
 ]
 build = "build.rs"
-exclude = [".nlsp_settings"]
+exclude = [".nlsp-settings"]
 repository = "https://github.com/michaelpennington/besmirch"
 description = "An interface between audio and light"
 
